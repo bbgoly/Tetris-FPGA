@@ -1,0 +1,2 @@
+DE10_LITE_VGA_Pattern.qar
+DE10_LITE_VGA_Pattern.qp_info

@@ -1,0 +1,20 @@
+module main(input MAX10_CLK1_50, output [3:0] VGA_B, output [3:0] VGA_G, output VGA_HS, output [3:0] VGA_R, output VGA_VS,);
+
+vga_pll u1(
+//	.areset(),
+	.inclk0(MAX10_CLK1_50),
+	.c0(VGA_CTRL_CLK);
+//	.locked());
+
+
+	
+
+vga_controller vga_ins(.iRST_n(KEY[0]),
+                      .iVGA_CLK(VGA_CTRL_CLK),
+                      .oHS(VGA_HS),
+                      .oVS(VGA_VS),
+                      .oVGA_B(VGA_B),
+                      .oVGA_G(VGA_G),
+                      .oVGA_R(VGA_R));
+
+endmodule

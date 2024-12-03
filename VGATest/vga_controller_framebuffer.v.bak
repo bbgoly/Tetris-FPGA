@@ -1,0 +1,15 @@
+module vga_controller_framebuffer;
+
+input RST_n;
+input VGA_CLK;
+input UPDATE_EN;
+
+output reg HS;
+output reg VS;
+output reg BLANK_n;
+
+output reg [3:0] VGA_R;
+output reg [3:0] VGA_G;
+output reg [3:0] VGA_B;
+
+endmodule

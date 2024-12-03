@@ -1,0 +1,11 @@
+filelist.txt
+platform_setup.tcl
+v/vga_pll.qip
+v/vga_controller.v
+v/video_sync_generator.v
+v/vga_pll.qip
+v/vga_pll.v
+v/vga_pll_bb.v
+DE10_LITE_VGA_Pattern.v
+demo_batch/DE10_LITE_VGA_Pattern.sof
+demo_batch/test.bat
